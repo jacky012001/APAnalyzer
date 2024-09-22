@@ -1,0 +1,181 @@
+.threat-detection-report-page-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+}
+
+.threat-detection-report-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #333;
+    color: white;
+    box-sizing: border-box;
+    height: 60px;
+    width: 100%;
+}
+
+.threat-detection-report-container {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;   
+}
+
+.threat-detection-report-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #333;
+    color: white;
+    box-sizing: border-box;
+    height: 60px;
+    width: 100%;
+}
+
+.threat-detection-report-left-section, .threat-detection-report-right-section {
+    display: flex;
+    align-items: center;
+}
+
+.threat-detection-report-date-time {
+    margin-right: 20px;
+}
+
+.threat-detection-report-back-button, .threat-detection-report-logout-button {
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    background-color: #ff4d4d;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.threat-detection-report-back-button:hover, .threat-detection-report-logout-button:hover {
+    background-color: #ff3333;
+}
+
+.threat-detection-report-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.threat-detection-report-upload-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.threat-detection-report-file-input {
+    width: 400px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #444;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.threat-detection-report-generate-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.threat-detection-report-generate-button:hover {
+    background-color: #0056b3;
+}
+
+.threat-detection-report-section {
+    margin-top: 20px;
+}
+
+.threat-detection-report-summary-title {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.threat-detection-report-summary {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.threat-detection-report-summary p,
+.threat-detection-report-summary ol {
+    font-size: 16px;
+    margin: 0 0 15px 0;
+}
+
+.threat-detection-report-summary ul li {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.threat-detection-report-summary ul li strong {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #ffd700;
+}
+
+.threat-detection-report-summary ul li em {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: lightseagreen;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.threat-detection-report-threat-list {
+    list-style: decimal;
+    padding-left: 20px;
+}
+
+.threat-detection-report-threat-list > li {
+    color: red;
+    font-style: italic;
+}
+
+.threat-detection-report-threat-item {
+    margin-bottom: 15px;
+}
+
+.threat-detection-report-threat-details {
+    color: #fff;
+    list-style: disc;
+    margin-left: 20px;
+    font-style: normal;
+}
+
+.threat-detection-report-section .logo {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+}

@@ -1,0 +1,151 @@
+.ml-model-training-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+}
+
+.ml-model-training-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #333;
+  color: white;
+  box-sizing: border-box;
+  height: 60px;
+  width: 100%;
+}
+
+.ml-model-training-header .left-section {
+  display: flex;
+}
+
+.ml-model-training-header .right-section {
+  display: flex;
+  align-items: center;
+}
+
+.ml-model-training-header .date-time {
+  margin-right: 20px;
+}
+
+.logout-button, .train-dataset-button, .model-back-button {
+  padding: 8px 15px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button {
+  background-color: #ff4d4d;
+}
+
+.model-back-button {
+  background-color: #ff4d4d;
+  margin-right: 10px;
+}
+
+.train-dataset-button {
+  background-color: darkgreen;
+}
+
+.logout-button:hover, .model-back-button:hover {
+  background-color: #ff3333;
+}
+
+.train-dataset-button:hover {
+  background-color: green;
+}
+
+.ml-model-training-main-content {
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: calc(100vh - 60px);
+  margin: 0;
+  flex-direction: row;
+}
+
+.ml-model-training-content-box {
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f4f4f4;
+  overflow-y: auto;
+  height: 100%; /* Fill remaining height */
+  padding: 20px;
+}
+
+.first-box, .second-box {
+  flex: 5;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.upload-dataset-button {
+  padding: 8px 15px;
+  color: white;
+  background-color: #00f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upload-dataset-button:hover {
+  background-color: darkblue;
+}
+
+.threat-details ol {
+  font-size: 0.9rem;
+  padding-left: 20px; /* Indentation for the threat details */
+}
+
+.threat-item {
+  margin-bottom: 1rem; /* Add some space between each threat */
+}
+
+.threat-list {
+  padding-left: 20px; /* Indentation for threat numbering */
+}
+
+.threat-list li {
+  margin-top: 0.5rem; /* Space between each item in the threat list */
+}
+
+.threat-item strong {
+  font-size: 1rem; /* Slightly bigger for emphasis on the threat title */
+}
+
+.threat-details li {
+  font-size: 0.85rem;
+}
+
+.key-bold {
+  font-weight: bold;
+}
+
+.value-normal {
+  font-weight: normal;
+  font-size: 0.9rem;
+}
+
+.comparison-results h3 {
+  font-style: italic;
+  color: #ff3333;
+}
+
+.first-box button:disabled, .second-box button:disabled {
+  cursor: not-allowed;
+}

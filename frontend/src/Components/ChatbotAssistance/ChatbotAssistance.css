@@ -1,0 +1,118 @@
+.chatbot-assistance-page-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+}
+
+.chatbot-assistance-report-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #333;
+    color: white;
+    box-sizing: border-box;
+    height: 60px;
+    width: 100%;
+}
+
+.chatbot-assistance-left-section, .chatbot-assistance-right-section {
+    display: flex;
+    align-items: center;
+}
+
+.chatbot-assistance-date-time {
+    margin-right: 20px;
+}
+
+.chatbot-assistance-back-button, .chatbot-assistance-logout-button {
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    background-color: #ff4d4d;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chatbot-assistance-back-button:hover, .chatbot-assistance-logout-button:hover {
+    background-color: #ff3333;
+}
+
+.chatbot-assistance-container {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+  }
+
+  .chatbot-assistance-form {
+    margin-bottom: 20px;
+  }
+
+  .chatbot-assistance-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .chatbot-assistance-file-input {
+    width: 400px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #444;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .chatbot-assistance-submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .chatbot-assistance-submit-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+
+  .chatbot-assistance-submit-button:hover {
+    background-color: #0056b3;
+  }
+
+  .chatbot-assistance-response {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    min-height: 100px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+
+  .chatbot-assistance-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
